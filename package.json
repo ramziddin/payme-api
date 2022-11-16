@@ -1,16 +1,28 @@
 {
-  "name": "payme-merchant-api",
+  "name": "payme-api",
   "version": "0.0.0",
-  "description": "A library to implement Payme's Merchant API protocol",
+  "description": "A library to implement Payme's Merchant API and Subscribe API protocols",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "payme",
     "merchant",
+    "subscribe",
     "api"
   ],
-  "author": "Ramziddin Makhmudov",
-  "license": "MIT"
+  "author": "Ramziddin Makhmudov <ramziddin.makhmudov@gmail.com> (https://t.me/ramzcoder)",
+  "license": "MIT",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.18.2",
+    "js-base64": "^3.7.2",
+    "next": "^13.0.3",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/body": "^5.1.1",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9"
+  }
 }
